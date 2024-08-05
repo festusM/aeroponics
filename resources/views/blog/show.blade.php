@@ -11,6 +11,8 @@
             <p><strong>{{ $comment->user->name }}:</strong> {{ $comment->content }}</p>
         </div>
     @endforeach
+    <p>test</p>
+<!--test comment-->
 
     <!-- Comment Form -->
     @auth
